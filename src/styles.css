@@ -123,7 +123,7 @@ footer .footer-legal a{display:block}
 .modern-bonus b{display:block;color:var(--operator);font-family:'Space Grotesk',sans-serif;font-size:21px;line-height:1}
 .modern-bonus small{display:block;color:#74869c;font-size:8px;font-weight:900;margin-top:4px}
 .modern-bonus em{display:block;color:#8a98aa;font-size:8px;font-style:normal;margin-top:3px}
-.modern-value-option .popular-badge{position:absolute;top:-10px;right:13px;z-index:5;display:block;background:var(--operator);color:#fff;border-radius:999px;padding:5px 10px;font-size:8px;font-weight:900;line-height:1;white-space:nowrap}
+.modern-value-option label{position:absolute;top:-10px;right:13px;z-index:5;display:block;background:var(--operator);color:#fff !important;border-radius:999px;padding:5px 10px;font-size:8px;font-weight:900;line-height:1;white-space:nowrap}
 .bonus-note{text-align:center;color:#8291a3;font-size:11px;line-height:1.6;margin:17px 0 0}
 .modern-checkout{display:flex;align-items:center;justify-content:space-between;gap:20px;border-top:1px solid #eee7f4;margin-top:28px;padding-top:23px}
 .modern-checkout small,.modern-checkout strong,.modern-checkout span{display:block}
@@ -245,27 +245,3 @@ footer .footer-legal a{display:block}
 /* Correção do selo 'MAIS ESCOLHIDO' para TIM e Surf */
 .operator-modern[style*="--operator: #0033A0"] .modern-value-option label,
 .operator-modern[style*="--operator: #0000F9"] .modern-value-option label { display:block; z-index:10; opacity:1; visibility:visible; }
-
-
-/* Apresentação textual, sem banners promocionais não comprovados. */
-.text-banner{min-height:300px;padding:clamp(30px,6vw,78px);background:linear-gradient(125deg,#eaf3ff,#f6f8fb 60%,#e8eef5);color:#10223a;display:flex;flex-direction:column;align-items:flex-start;justify-content:center}
-.text-banner .eyebrow{color:#42607e}
-.text-banner h1{max-width:760px;margin:0 0 18px;font-family:system-ui,sans-serif;font-size:clamp(32px,5vw,58px);line-height:1.05;letter-spacing:-.045em}
-.text-banner p{max-width:680px;margin:0 0 24px;color:#53677f;font-size:15px;line-height:1.7}
-.text-banner .banner-cta{position:static;background:#0c5f84;color:#fff}
-.operator-modern.operator-algar{--operator:#00A859;--operator-soft:#E8F7EF}
-.operator-modern.operator-claro{--operator:#E60000;--operator-soft:#FFE8E8}
-.operator-modern.operator-correios{--operator:#00416B;--operator-soft:#EAF3F8}
-.operator-modern.operator-surf{--operator:#0000F9;--operator-soft:#E8E8FF}
-.operator-modern.operator-tim{--operator:#0033A0;--operator-soft:#E8EEFF}
-.operator-modern.operator-vivo{--operator:#660099;--operator-soft:#F3E8FA}
-.operator-logo-algar{background:#E8F7EF}.operator-logo-claro{background:#FFE8E8}.operator-logo-correios{background:#EAF3F8}
-.operator-logo-surf{background:#E8E8FF}.operator-logo-tim{background:#E8EEFF}.operator-logo-vivo{background:#F3E8FA}
-.operator-algar .operator-main-card{border-color:#CDEDDD}.operator-claro .operator-main-card{border-color:#FFD0D0}
-.operator-correios .operator-main-card{border-color:#C9E0EC}.operator-surf .operator-main-card{border-color:#D0D0FF}
-.operator-tim .operator-main-card{border-color:#CBD9F5}.operator-vivo .operator-main-card{border-color:#E4CCF0}
-.operator-trust-row span{overflow-wrap:anywhere}
-
-.operator-banner-note{max-width:940px;margin:12px auto 0;padding:0 18px;text-align:center;color:#66788f;font-size:11px;line-height:1.6}
-.bonus-line strong{text-align:right;max-width:62%;font-size:11px;color:#315674}
-@media(max-width:760px){.operator-banner-note{padding:0 20px;font-size:10px}.bonus-line strong{max-width:58%}}
