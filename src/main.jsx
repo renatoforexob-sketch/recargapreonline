@@ -274,8 +274,8 @@ function Footer() {
 
       <div>
         <strong>Transparência</strong>
-        <p>Razão Social: Safe Check & Cia LTDA</p>
-        <p>CNPJ: 07.917.274/0001-99</p>
+        <p>VIGGAO PORTAIS, PROVEDORES E CONTEUDO LTDA</p>
+        <p>CNPJ: 37.835.025/0001-15</p>
         <a href={`mailto:${CUSTOMER_EMAIL}`}>
           {CUSTOMER_EMAIL}
         </a>
