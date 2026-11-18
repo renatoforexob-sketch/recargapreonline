@@ -24,15 +24,15 @@ const NEXFAY_CHECKOUTS = {
   },
 
   claro: {
-    20: 'https://nexfay.com.br/c/recarga-claro-r-20-4086',
-    25: 'https://nexfay.com.br/c/recarga-claro-r-25-5kdb',
-    30: 'https://nexfay.com.br/c/recarga-claro-r-30-f8up',
-    35: 'https://nexfay.com.br/c/recarga-claro-r-35-m89n',
-    40: 'https://nexfay.com.br/c/recarga-claro-r-40-7qp9',
-    50: 'https://nexfay.com.br/c/recarga-claro-r-50-vp8w',
-    60: 'https://nexfay.com.br/c/recarga-claro-r-60-ry7s',
-    70: 'https://nexfay.com.br/c/recarga-claro-r-70-i7jy',
-    100: 'https://nexfay.com.br/c/recarga-claro-r-100-4bjl'
+    20: 'https://xyronbot.com.br/c/recarga-claro-pre-pago-20',
+    25: 'https://xyronbot.com.br/c/recarga-claro-pre-pago-25',
+    30: 'https://xyronbot.com.br/c/recarga-claro-pre-pago-30',
+    35: 'https://xyronbot.com.br/c/recarga-claro-pre-pago-35',
+    40: 'https://xyronbot.com.br/c/recarga-claro-pre-pago-40',
+    50: 'https://xyronbot.com.br/c/recarga-claro-pre-pago-50',
+    60: 'https://xyronbot.com.br/c/recarga-claro-pre-pago-60',
+    70: 'https://xyronbot.com.br/c/recarga-claro-pre-pago-70',
+    100: 'https://xyronbot.com.br/c/recarga-claro-pre-pago-100'
   },
 
   tim: {
