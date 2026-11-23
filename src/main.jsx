@@ -12,15 +12,15 @@ const CUSTOMER_EMAIL = 'contato@recargaprefacil.online';
 
 const NEXFAY_CHECKOUTS = {
   vivo: {
-    20: 'https://nexfay.com.br/c/recarga-vivo-r-20-7xz4',
-    25: 'https://nexfay.com.br/c/recarga-vivo-r-25-ecrl',
-    30: 'https://nexfay.com.br/c/recarga-vivo-r-30-z3xb',
-    35: 'https://nexfay.com.br/c/recarga-vivo-r-35-8v48',
-    40: 'https://nexfay.com.br/c/recarga-vivo-r-40-jd78',
-    50: 'https://nexfay.com.br/c/recarga-vivo-r-50-k9d6',
-    60: 'https://nexfay.com.br/c/recarga-vivo-r-60-dv5a',
-    70: 'https://nexfay.com.br/c/recarga-vivo-r-70-00-uy05',
-    100: 'https://nexfay.com.br/c/recarga-vivo-r-100-w0ai'
+    20: 'https://xyronbot.com.br/c/recarga-vivo-pre-pago-20',
+    25: 'https://xyronbot.com.br/c/recarga-vivo-pre-pago-25',
+    30: 'https://xyronbot.com.br/c/recarga-vivo-pre-pago-30',
+    35: 'https://xyronbot.com.br/c/recarga-vivo-pre-pago-35',
+    40: 'https://xyronbot.com.br/c/recarga-vivo-pre-pago-40',
+    50: 'https://xyronbot.com.br/c/recarga-vivo-pre-pago-50',
+    60: 'https://xyronbot.com.br/c/recarga-vivo-pre-pago-60',
+    70: 'https://xyronbot.com.br/c/recarga-vivo-pre-pago-70',
+    100: 'https://xyronbot.com.br/c/recarga-vivo-pre-pago-100i'
   },
 
   claro: {
@@ -59,7 +59,19 @@ const NEXFAY_CHECKOUTS = {
     70: 'https://xyronbot.com.br/c/recarga-correios-pre-pago-70',
     100: 'https://xyronbot.com.br/c/recarga-correios-pre-pago-100'
   },
-  algar: {}
+  algar: {
+     20: 'https://xyronbot.com.br/c/recarga-algar-pre-pago-20',
+    25: 'https://xyronbot.com.br/c/recarga-algar-pre-pago-25',
+    30: 'https://xyronbot.com.br/c/recarga-algar-pre-pago-30',
+    35: 'https://xyronbot.com.br/c/recarga-algar-pre-pago-35',
+    40: 'https://xyronbot.com.br/c/recarga-algar-pre-pago-40',
+    50: 'https://xyronbot.com.br/c/recarga-algar-pre-pago-50',
+    60: 'https://xyronbot.com.br/c/recarga-algar-pre-pago-60',
+    70: 'https://xyronbot.com.br/c/recarga-algar-pre-pago-70',
+    100: 'https://xyronbot.com.br/c/recarga-algar-pre-pago-100'
+
+     
+  }
 };
 
 /* =====================================================
